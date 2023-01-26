@@ -10,7 +10,7 @@
 
 - Scan 65,535 ports
 
-- IP Information Gather such as:
+- IP Information such as:
     - Country and City.
     - Hostname.
     - State/Region.
