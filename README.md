@@ -51,7 +51,7 @@ type:
           
           - pip3 install colored.
           
-          - pip3 install nmap.
+          - pip3 install python-nmap.
           
 # [+] For The First Choice:
 ![3](https://user-images.githubusercontent.com/113283571/214794497-983b4061-f0be-419b-8291-2f2437f3694c.png)
