@@ -1,6 +1,7 @@
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/113283571/214788771-9fba0457-c6c9-4a5b-a30a-f91a584e98ef.png">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/113283571/215259619-01baaa6f-737c-401c-9968-4d4b28664f98.png">
 </p>
+
 
 # <h1 align="center">IP_Hunter</h1>
 
@@ -16,6 +17,15 @@
     - State/Region.
     - Timezone.
     - etc..
+
+- Get Service Version by IP:
+    - Protocol.
+    - Port.
+    - Service.
+    - Version.
+    
+- All OutPut Saved on the file called output.txt    
+ 
     
     
 # [+] Insallation & Usage:
@@ -31,9 +41,9 @@ After Install the tool by using:
        
 type:
 
-*python3 IP_Hunter.py*
+*$python3 IP_Hunter.py*
 
-![2](https://user-images.githubusercontent.com/113283571/214793705-1a8cbb1e-b856-41f8-a43c-609d3be471e0.png)
+![1 1 1](https://user-images.githubusercontent.com/113283571/215259742-c41a7c5f-3fbe-4ea0-8595-8cb6da97dff7.png)
 
       Note: Make sure to Install all necessary libraries:
           
@@ -41,10 +51,13 @@ type:
           
           - pip3 install colored.
           
+          - pip3 install nmap.
+          
 # [+] For The First Choice:
 ![3](https://user-images.githubusercontent.com/113283571/214794497-983b4061-f0be-419b-8291-2f2437f3694c.png)
 
-It will ask you for *Token* you can get that by sign up at *ipinfo.io* website:
+It will ask you for *Token*,
+you can get that by sign up at *ipinfo.io* website:
              https://ipinfo.io/
 
 # [+] For The Sec Choice:
@@ -52,3 +65,20 @@ It will ask you for *Token* you can get that by sign up at *ipinfo.io* website:
 
 Make sure your Range-Ports Input be like ( 1, 100)
 
+
+# [+] For The 3rd Choice:
+
+![3 3](https://user-images.githubusercontent.com/113283571/215259839-9a6b99ad-53ac-4f95-9dc9-dae3ef9c699c.png)
+
+You Can Choice Range 0f Ports 0r A Specific Port To Get The Service and Version.. 
+
+![4](https://user-images.githubusercontent.com/113283571/215259931-8d6a67c5-17e3-47c8-a8d9-829aa30d7988.png)
+
+And all the Output will saved in this file called "output.txt" you can *download it with the code or just create it by your self* 
+
+
+       Contant me at:
+       Instagram:
+       https://www.instagram.com/1_k1e/
+       OR my YouTube Channel:
+       https://www.youtube.com/@magician-teq
