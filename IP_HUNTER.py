@@ -5,6 +5,7 @@ import sys
 from colored import fg,bg
 import time
 import ipinfo
+
 white = fg(15)
 aqua = fg(14)
 green = fg(10)
