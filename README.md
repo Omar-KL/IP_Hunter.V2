@@ -5,26 +5,25 @@
 
 # <h1 align="center">IP_Hunter.V2</h1>
 
-# Gathering Information From IP Address With The Port Scan..
+
+# What is IP-Hunter?
+
+<h3>IP Hunter is a Python program that uses IP addresses to gather information such as the country, city, state/region, timezone, and more. The program is designed to be easy to use, practical, and beneficial. The intention of this tool is to include it in your ethical penetration testing methodology. Please do not use this tool on any IP without obtaining permission.</h3>
+
+
+![1 1](https://user-images.githubusercontent.com/113283571/219009266-00e3fd0c-89c8-408e-a388-f72f4859ee35.png)
+
+
 
 # [+] Features:
 
-- Scan 65,535 ports
+- <h3>Gathering information about IP addresses.</h3>
+ 
+- <h3>Scanning for OS information and vulnerabilities.</h3>
 
-- IP Information such as:
-    - Country and City.
-    - Hostname.
-    - State/Region.
-    - Timezone.
-    - etc..
+- <h3>Searching for exploits.</h3>
 
-- Get Service Version by IP:
-    - Protocol.
-    - Port.
-    - Service.
-    - Version.
-    
-- All OutPut Saved on the file called output.txt    
+- <h3>All output is saved in a file called output.txt.</h3>
  
     
     
@@ -35,50 +34,45 @@
            
            - you have to create an account at ipinfo.io website to use this tool.
 
-After Install the tool by using:
+<h3>Install the tool by using:</h3>
 
-       $sudo git clone https://github.com/Omar-KL/IP_Hunter.git
-       
-type:
+<h4><code>$sudo git clone https://github.com/Omar-KL/IP_Hunter.V2.git</code></h4>
+  
+<h3>do <code>chmod +x setup.sh</code> then run this file as root  <code>$sudo ./setup.sh</code> to install all necessary libraries..</h3>
 
-*$python3 IP_Hunter.py*
+<h3>[+] And now Just Run The Secript <code>$sudo python3 IP_HUNTER.py</code></h3>
 
-![1 1 1](https://user-images.githubusercontent.com/113283571/215259742-c41a7c5f-3fbe-4ea0-8595-8cb6da97dff7.png)
-
-      Note: Make sure to Install all necessary libraries:
+![6](https://user-images.githubusercontent.com/113283571/219006737-b19eed51-ee00-4905-98c6-62865fcb3902.png)
           
-          - pip3 install ipinfo.
-          
-          - pip3 install colored.
-          
-          - pip3 install python-nmap.
-          
-# [+] For The First Choice:
-![3](https://user-images.githubusercontent.com/113283571/214794497-983b4061-f0be-419b-8291-2f2437f3694c.png)
-
-It will ask you for *Token*,
-you can get that by sign up at *ipinfo.io* website:
-             https://ipinfo.io/
-
-# [+] For The Sec Choice:
-![4 1](https://user-images.githubusercontent.com/113283571/214795153-1a8da360-a7fa-4700-b58d-c5e6c8fc393b.png)
-
-Make sure your Range-Ports Input be like ( 1, 100)
+# [+] For Choice "1":
+![2 2 2](https://user-images.githubusercontent.com/113283571/219007123-56968dce-467d-4167-a5fe-414920be65c4.png)
 
 
-# [+] For The 3rd Choice:
+<h3>To use the tool, you will be prompted for a token, which can be obtained by signing up for an account on the <code>ipinfo.io</code> website at https://ipinfo.io.</h3>
 
-![3 3](https://user-images.githubusercontent.com/113283571/215259839-9a6b99ad-53ac-4f95-9dc9-dae3ef9c699c.png)
+# [+] For Choice "2":
 
-You Can Choice Range 0f Ports 0r A Specific Port To Get The Service and Version.. 
-
-![4](https://user-images.githubusercontent.com/113283571/215259931-8d6a67c5-17e3-47c8-a8d9-829aa30d7988.png)
-
-And all the Output will saved in this file called "output.txt" you can *download it with the code or just create it by your self* 
+![6](https://user-images.githubusercontent.com/113283571/219012763-5fc9e5ef-840f-4a1f-8672-b0be8d1c9db7.png)
 
 
-       Contant me at:
-       Instagram:
-       https://www.instagram.com/1_k1e/
-       OR my YouTube Channel:
-       https://www.youtube.com/@magician-teq
+
+<h3>You can scan a single IP or multiple IPs by entering the path of the file that contains the IPs.</h3>
+<h3>And the Output will be like this:</h3>
+<h2>OS Information</h2>
+
+![3 3](https://user-images.githubusercontent.com/113283571/219010945-8333f560-c0d9-4ef1-beb2-7d3abf0d49ec.png)
+
+<h2>Vulerabilities and Exploits</h2>
+
+
+![5](https://user-images.githubusercontent.com/113283571/219011193-d0c14b5c-cfaa-4fc7-8cf3-6a301d6d443f.png)
+
+
+
+<h3>And all the output will be saved in this file called 'output.txt'.</h3>
+
+
+# Note:
+<h3>- I will keep updating the prorgam in the future</h3>
+<h3>- If you're facing any issue while running the program, consider contacting me via Instagram <code>(1_k1e)</code> and I'll help you fix it.</h3>
+
